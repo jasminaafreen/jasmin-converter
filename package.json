@@ -1,0 +1,19 @@
+{
+  "name": "jasmin-converter",
+  "version": "1.0.0",
+  "description": "currency converter from INR to USD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "currency",
+    "converter",
+    "nodejs"
+  ],
+  "author": "jasmin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
