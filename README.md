@@ -28,14 +28,14 @@ Before starting, ensure you have the following:
 ## Steps to Implement
 
 ### 1. Create and Set Up the Repository
-1. Create a new repository on GitHub named `glarimy-converter`.
+1. Create a new repository on GitHub named `jasmin-converter`.
 2. Clone the repository to your local machine:
    ```sh
    git clone <repo-url>
    ```
 3. Navigate to the project directory:
    ```sh
-   cd glarimy-converter
+   cd jasmin-converter
    ```
 
 ### 2. Initialize the Project
@@ -75,11 +75,11 @@ Before starting, ensure you have the following:
 1. Create a `Dockerfile` to containerize the application.
 2. Install Docker and build the Docker image:
    ```sh
-   docker build -t glarimy-converter .
+   docker build -t jasmin-converter .
    ```
 3. Run the Docker container:
    ```sh
-   docker run -it glarimy-converter
+   docker run -it jasmin-converter
    ```
 
 ### 9. Develop a Simple API
@@ -99,8 +99,8 @@ Before starting, ensure you have the following:
 1. Modify `Dockerfile` to expose port 3000.
 2. Rebuild and run the container:
    ```sh
-   docker build -t glarimy/glarimy-converter .
-   docker run -d -p 3000:3000 glarimy/glarimy-converter
+   docker build -t jasminshah123/jasmin-converter .
+   docker run -d -p 3000:3000 jasminshah123/jasmin-converter
    ```
 3. Test the API:
    ```sh
@@ -114,10 +114,10 @@ Before starting, ensure you have the following:
 
 ### 12. Deploy with Kubernetes
 1. Install **Kubernetes**, **Minikube**, and configure it.
-2. Create a deployment file `glarimy.yml` to deploy the container.
+2. Create a deployment file `jasmin.yml` to deploy the container.
 3. Deploy the application to Kubernetes:
    ```sh
-   kubectl apply -f glarimy.yml
+   kubectl apply -f jasmin.yml
    ```
 4. Verify that the deployment is running:
    ```sh
